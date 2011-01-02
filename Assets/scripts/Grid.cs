@@ -154,9 +154,9 @@ public class Grid : MonoBehaviour {
 		}
 	
 		Vector3i step = new Vector3i(
-			(int) direction[0]>0?1:-1,
-			(int) direction[1]>0?1:-1,
-			(int) direction[2]>0?1:-1
+			direction[0]>0?1:-1,
+			direction[1]>0?1:-1,
+			direction[2]>0?1:-1
 			);
 	
 		Vector3 tMax = toWorldSpace(position);
